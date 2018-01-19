@@ -16,36 +16,36 @@ Part 1
 
 Part 2
 
-For each of the below, you will select your own value for each condition. The table will give the conditions and an example for each. Don’t steal our examples—be creative!
+For each of the below, you will select your own value for each condition. The table will give the conditions and an example for each.
 
 [ * ] Retirement Years (8 Points)
     The user’s number of years until retirement will be based on whether the user’s age is odd or even.
 
     (condition) If the user’s age is…	(example) then the user will retire in…
-    odd					14 years
-    even				12 years
+    odd					42 years
+    even				21 years
 
 [ * ] Vacation Home Location (8 Points)
     The location of the user’s vacation home will be based on how many siblings the user has. If the user enters a number less than zero, give the user a bad location!
 
-	(condition) If the user’s number of siblings is…	(example) then the user’s vacation home will be in…
-	0							Boca Raton, FL
-	1							Nassau, Bahamas
-	2							Ponta Negra,Brazil
-	3							Portland, Oregon
-	greater than three					Baton Rouge, LA
-	less than zero						Chernobyl, Ukraine
-[ ] Mode of Transporation (8 Points)
+	(condition) If the user’s number of siblings is…	then the user’s vacation home will be in…
+	0							Maui, Hawaii
+	1							Juno, Alaska
+	2							Singapore, Thailand
+	3							Brisbane, Australia
+	greater than three					Paris, France
+	less than zero						Pomeroy, Ohio (Sorry Meigs County :( )
+[ * ] Mode of Transporation (8 Points)
     The user’s mode of transportation will determined by the user’s favorite color.
 
-	(condition) If the user’s favorite color is…	(example) then the user’s mode of transportation will be…
-	red						Maserati
-	orange						stallion
-	yellow						chariot
-	green						taxi
-	blue						rickshaw
-	indigo						motor scooter
-	violet						flying saucer
+	(condition) If the user’s favorite color is…	then the user’s mode of transportation will be…
+	red						a Mustang
+	orange						bicycle
+	yellow						bus
+	green						a Prius
+	blue						row boat
+	indigo						a chariot pulled by corgis
+	violet						river barge
 [ ] Bank Balance (8 Points)
     The user’s bank balance at retirement will be based on the user’s birth month. If the user enters something other than 1-12 for birth month, the user’s balance will be $0.00.
 

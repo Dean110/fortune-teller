@@ -55,7 +55,7 @@ For each of the below, you will select your own value for each condition. The ta
 	9-12						$252,397.03
 	anything else					$-52.01
 Part 3
-Display the user’s fortune in this format:
+[ * ] Display the user’s fortune in this format:
 
 *[First Name]* *[Last Name]* will retire in *[# of years]* with *[bank balance]* in the bank,
 a vacation home in *[location]*, and travel by *[mode of transporation]*.

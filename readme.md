@@ -2,33 +2,33 @@ Fortune Teller
 
 Overview
 
-Week One Project for the Spring 2018 WeCanCodeIT cohort. Develop a console application that will tell the userís fortune based on data received from the user.
+Week One Project for the Spring 2018 WeCanCodeIT cohort. Develop a console application that will tell the user‚Äôs fortune based on data received from the user.
 
 Part 1
 
-[ * ] Ask the user for the userís first name. (6 Points)
-[ * ] Ask the user for the userís last name. (6 Points)
-[ * ] Ask the user for the userís age. (6 Points)
-[ * ] Ask the user for the userís birth month (as an ëintí). (6 Points)
-[ * ] Ask the user for the userís favorite ROYGBIV color. (6 Points)
-[ * ] If the user does not know what ROYGBIV is, ask the user to enter ìHelpî to get a list of the ROYGBIV colors. (6 Points)
-[ * ] Ask the user for the userís number of siblings. (6 Points)
+[ * ] Ask the user for the user‚Äôs first name. (6 Points)
+[ * ] Ask the user for the user‚Äôs last name. (6 Points)
+[ * ] Ask the user for the user‚Äôs age. (6 Points)
+[ * ] Ask the user for the user‚Äôs birth month (as an ‚Äòint‚Äô). (6 Points)
+[ * ] Ask the user for the user‚Äôs favorite ROYGBIV color. (6 Points)
+[ * ] If the user does not know what ROYGBIV is, ask the user to enter ‚ÄúHelp‚Äù to get a list of the ROYGBIV colors. (6 Points)
+[ * ] Ask the user for the user‚Äôs number of siblings. (6 Points)
 
 Part 2
 
-For each of the below, you will select your own value for each condition. The table will give the conditions and an example for each.
+For each of the below, I selected a value for each condition. The table will give the conditions and the value for each.
 
 [ * ] Retirement Years (8 Points)
-    The userís number of years until retirement will be based on whether the userís age is odd or even.
+    The user‚Äôs number of years until retirement will be based on whether the user‚Äôs age is odd or even.
 
-    (condition) If the userís age isÖ	(example) then the user will retire inÖ
+    (condition) If the user‚Äôs age is‚Ä¶	(example) then the user will retire in‚Ä¶
     odd					42 years
     even				21 years
 
 [ * ] Vacation Home Location (8 Points)
-    The location of the userís vacation home will be based on how many siblings the user has. If the user enters a number less than zero, give the user a bad location!
+      The location of the user‚Äôs vacation home will be based on how many siblings the user has. If the user enters a number less than         zero, give the user a bad location!
 
-	(condition) If the userís number of siblings isÖ	then the userís vacation home will be inÖ
+	(condition) If the user‚Äôs number of siblings is‚Ä¶	then the user‚Äôs vacation home will be in‚Ä¶
 	0							Maui, Hawaii
 	1							Juno, Alaska
 	2							Singapore, Thailand
@@ -36,9 +36,9 @@ For each of the below, you will select your own value for each condition. The ta
 	greater than three					Paris, France
 	less than zero						Pomeroy, Ohio (Sorry Meigs County :( )
 [ * ] Mode of Transporation (8 Points)
-    The userís mode of transportation will determined by the userís favorite color.
+      The user‚Äôs mode of transportation will determined by the user‚Äôs favorite color.
 
-	(condition) If the userís favorite color isÖ	then the userís mode of transportation will beÖ
+	(condition) If the user‚Äôs favorite color is‚Ä¶	then the user‚Äôs mode of transportation will be‚Ä¶
 	red						a Mustang
 	orange						bicycle
 	yellow						bus
@@ -47,15 +47,15 @@ For each of the below, you will select your own value for each condition. The ta
 	indigo						a chariot pulled by corgis
 	violet						river barge
 [ * ] Bank Balance (8 Points)
-    The userís bank balance at retirement will be based on the userís birth month. If the user enters something other than 1-12 for birth month, the userís balance will be $0.00.
+    The user‚Äôs bank balance at retirement will be based on the user‚Äôs birth month. If the user enters something other than 1-12 for         birth month, the user‚Äôs balance will be $0.00.
 
-	(condition) If the userís birth month isÖ	The userís balance will beÖ
+	(condition) If the user‚Äôs birth month is‚Ä¶	The user‚Äôs balance will be‚Ä¶
 	1-4						$452,396.04
 	5-8						$952,396.03
 	9-12						$252,397.03
 	anything else					$-52.01
 Part 3
-[ * ] Display the userís fortune in this format:
+[ * ] Display the user‚Äôs fortune in this format:
 
 *[First Name]* *[Last Name]* will retire in *[# of years]* with *[bank balance]* in the bank,
 a vacation home in *[location]*, and travel by *[mode of transporation]*.
@@ -63,11 +63,15 @@ Your program should be able to process input whether a user enters capital or lo
 
 
 Stretch Tasks (Optional)
-[ ] Give the user the ability to quit the program by typing ìQuitî (should not be case sensitive) at any point where the program is looking for user input. The program should print ìNobody likes a quitterÖî before ending.
+[ ] Give the user the ability to quit the program by typing ‚ÄúQuit‚Äù (should not be case sensitive) at any point where the program is looking for user input. The program should print ‚ÄúNobody likes a quitter‚Ä¶‚Äù before ending.
 
-Tip: To do this with the prompts that expect an integer, you will need to read in a String, check for ìQuitî, then use Integer.parseInt(value) to convert the user input to an int.
+Tip: To do this with the prompts that expect an integer, you will need to read in a String, check for ‚ÄúQuit‚Äù, then use Integer.parseInt(value) to convert the user input to an int.
 Also tip: You can call System.exit(0); to terminate your program immediately.
+<<<<<<< HEAD
 [ * ] Research while (page 115 in the Head Start book) or do/while loops and use them to check whether a user typed ìHelpî for favorite color, printing the list of colors each time the user types ìHelpî.
+=======
+[ ] Research while (page 115 in the Head Start book) or do/while loops and use them to check whether a user typed ‚ÄúHelp‚Äù for favorite color, printing the list of colors each time the user types ‚ÄúHelp‚Äù.
+>>>>>>> 362705006091dcbb2fb8bdbdb001103945ab9428
 
   What is your favorite ROYGBIV color?
   Help

@@ -46,14 +46,14 @@ For each of the below, you will select your own value for each condition. The ta
 	blue						row boat
 	indigo						a chariot pulled by corgis
 	violet						river barge
-[ ] Bank Balance (8 Points)
+[ * ] Bank Balance (8 Points)
     The user’s bank balance at retirement will be based on the user’s birth month. If the user enters something other than 1-12 for birth month, the user’s balance will be $0.00.
 
-	(condition) If the user’s birth month is…	(example) The user’s balance will be…
-	1-4						$256,000.76
-	5-8						$3,687,105.42
-	9-12						$86.23
-	anything else					$0.00
+	(condition) If the user’s birth month is…	The user’s balance will be…
+	1-4						$452,396.04
+	5-8						$952,396.03
+	9-12						$252,397.03
+	anything else					$-52.01
 Part 3
 Display the user’s fortune in this format:
 
@@ -61,8 +61,6 @@ Display the user’s fortune in this format:
 a vacation home in *[location]*, and travel by *[mode of transporation]*.
 Your program should be able to process input whether a user enters capital or lowercase letters.
 
-Grading
-Find the rubric here.
 
 Stretch Tasks (Optional)
 [ ] Give the user the ability to quit the program by typing “Quit” (should not be case sensitive) at any point where the program is looking for user input. The program should print “Nobody likes a quitter…” before ending.

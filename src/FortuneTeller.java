@@ -94,6 +94,17 @@ public class FortuneTeller {
 //		default :
 //			transitMode = "foot";
 //		}
+		
+		//Bank Balance (userBirthMonth)
+//		double bankBalance;
+//		if((userBirthMonth >= 1) && (userBirthMonth <= 4)) {
+//			bankBalance = 452396.04;
+//		} else if ((userBirthMonth >= 5) && (userBirthMonth <= 8)) {
+//			bankBalance = 952396.03;
+//		} else if ((userBirthMonth >= 9) && (userBirthMonth <= 12)) {
+//			bankBalance = 252397.03;
+//		}else bankBalance = -52.01;
+		
 		// Part 3
 		// Take consequences and give a fortune
 	}

@@ -25,7 +25,7 @@ For each of the below, you will select your own value for each condition. The ta
     odd					14 years
     even				12 years
 
-[ ] Vacation Home Location (8 Points)
+[ * ] Vacation Home Location (8 Points)
     The location of the user’s vacation home will be based on how many siblings the user has. If the user enters a number less than zero, give the user a bad location!
 
 	(condition) If the user’s number of siblings is…	(example) then the user’s vacation home will be in…

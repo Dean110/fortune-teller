@@ -27,15 +27,18 @@ public class FortuneTeller {
 		System.out.println("What is your favorite ROYGBIV color?\nYou can enter help to see a list of ROYGBIV colors:");
 		String userFavoriteColor = input.nextLine();
 		// Print Color List if 'Help' is entered
-		if (userFavoriteColor.toLowerCase().equals("help")) {
-			System.out.println(
+
+		while (userFavoriteColor.toLowerCase().equals("help")) {
+					System.out.println(
 					"Here is a list of colors to choose from:\nRed, Orange, Yellow, Green, Blue, Indigo, or Violet\nPlease enter one of these colors:");
 			userFavoriteColor = input.nextLine();
 		}
+		System.out.println(userFavoriteColor);
 		System.out.println("How many siblings do you have:");
 		int userSiblingCount = input.nextInt();
 		System.out.println("Thanks for your time, your fortune is inbound.");
 
+		input.close();
 		// Part 2
 		// Take input and give it consequences
 
@@ -112,6 +115,7 @@ public class FortuneTeller {
 		System.out.println(userFirstName + " " + userLastName + " will retire in " + retirementYears + " years with "
 				+ bankBalance + " in the bank, a vacation home in " + vacationHomeLocale + ", \nand travel by "
 				+ transitMode + ".");
+		
 	}
 
 }

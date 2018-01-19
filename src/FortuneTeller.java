@@ -16,8 +16,11 @@ public class FortuneTeller {
 		String userFirstName = input.nextLine();
 		System.out.println("Thank you " + userFirstName + ", next I need your last name:");
 		String userLastName = input.nextLine();
-		System.out.println(userLastName);
-		
+		System.out.println("Ok " + userFirstName + " " + userLastName + ", now to determine your fate\nI need to know your age:");
+		int userAge = input.nextInt();
+		System.out.println("What month were you born in?  Please use the month's numeric value:");
+		int userBirthMonth = input.nextInt();
+		System.out.println(userBirthMonth);
 		
 
 	}

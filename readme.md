@@ -8,17 +8,17 @@ Part 1
 
 [ * ] Ask the user for the user’s first name. (6 Points)
 [ * ] Ask the user for the user’s last name. (6 Points)
-[ ] Ask the user for the user’s age. (6 Points)
-[ ] Ask the user for the user’s birth month (as an ‘int’). (6 Points)
-[ ] Ask the user for the user’s favorite ROYGBIV color. (6 Points)
-[ ] If the user does not know what ROYGBIV is, ask the user to enter “Help” to get a list of the ROYGBIV colors. (6 Points)
-[ ] Ask the user for the user’s number of siblings. (6 Points)
+[ * ] Ask the user for the user’s age. (6 Points)
+[ * ] Ask the user for the user’s birth month (as an ‘int’). (6 Points)
+[ * ] Ask the user for the user’s favorite ROYGBIV color. (6 Points)
+[ * ] If the user does not know what ROYGBIV is, ask the user to enter “Help” to get a list of the ROYGBIV colors. (6 Points)
+[ * ] Ask the user for the user’s number of siblings. (6 Points)
 
 Part 2
 
 For each of the below, you will select your own value for each condition. The table will give the conditions and an example for each. Don’t steal our examples—be creative!
 
-[ ] Retirement Years (8 Points)
+[ * ] Retirement Years (8 Points)
     The user’s number of years until retirement will be based on whether the user’s age is odd or even.
 
     (condition) If the user’s age is…	(example) then the user will retire in…

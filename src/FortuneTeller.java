@@ -30,12 +30,21 @@ public class FortuneTeller {
 		for (int i = 0; i < 6; i++) {
 			System.out.println(userPrompts[i]);
 			userInput[i] = (String) input.nextLine();
+			
+			if (userInput[i].equalsIgnoreCase("quit")) {
+				System.out.println("Nobody likes a quitter...");
+				System.exit(0);
+			}
 
 			if ((i == 4) && (userInput[4].equalsIgnoreCase("help"))) {
 				while (userInput[i].equalsIgnoreCase("help")) {
 					System.out.println(
 							"Here is a list of colors to choose from:\nRed, Orange, Yellow, Green, Blue, Indigo, or Violet\nPlease enter one of these colors:");
 					userInput[i] = input.nextLine();
+					if (userInput[i].equalsIgnoreCase("quit")) {
+						System.out.println("Nobody likes a quitter...");
+						System.exit(0);
+					}
 				}
 			}
 			System.out.println(userInput[i]);

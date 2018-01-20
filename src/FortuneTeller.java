@@ -1,5 +1,5 @@
 
-// Version 1.3
+// Version 1.2.1
 import java.util.Scanner;
 import java.text.NumberFormat;
 
@@ -68,13 +68,14 @@ public class FortuneTeller {
 		int oddAge = 42;
 		int evenAge = 21;
 		int retirementYears;
+		
 
 		if (userAge % 2 == 1) {
 			retirementYears = oddAge;
 		} else {
 			retirementYears = evenAge;
 		}
-
+				
 		// Vacation Home Location (userSiblingCount)
 		String vacationHomeLocale;
 		if (userSiblingCount == 0) {
@@ -136,9 +137,23 @@ public class FortuneTeller {
 		// Part 3
 		// Take consequences and give a fortune
 
-		System.out.println(userFirstName + " " + userLastName + " will retire in " + retirementYears + " years with "
-				+ retirementFunds.format(bankBalance) + " in the bank,\na vacation home in " + vacationHomeLocale + " and travel by "
-				+ transitMode + ".");
+		String [] fortuneMessage = new String [12];
+		fortuneMessage[0] = userFirstName;
+		fortuneMessage[1] = " ";
+		fortuneMessage[2] = userLastName;
+		fortuneMessage[3] = " will retire in ";
+		fortuneMessage[4] = String.valueOf(retirementYears);
+		fortuneMessage[5] = " years with ";
+		fortuneMessage[6] = retirementFunds.format(bankBalance);
+		fortuneMessage[7] = " in the bank,\na vacation home in ";
+		fortuneMessage[8] = vacationHomeLocale;
+		fortuneMessage[9] = " and travel by ";
+		fortuneMessage[10] = transitMode;
+		fortuneMessage[11] = ".";
+		
+		for (int i = 0; i < 12; i++) {
+			System.out.print(fortuneMessage[i]);
+		}
 
 	}
 

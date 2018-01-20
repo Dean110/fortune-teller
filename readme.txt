@@ -6,7 +6,7 @@ Week One Project for the Spring 2018 WeCanCodeIT cohort. Develop a console appli
 	
 Version History
 	ver 1.0 meets all requirements plus the second stretch goal.  
-	ver 1.1 will work towards the first stretch goal
+	ver 1.1 meets all requirements and stretch goals.
 
 Part 1
 
@@ -58,7 +58,9 @@ Part 3
 
 [ * ] Display the user’s fortune in this format:
 
-[First Name] [Last Name] will retire in [# of years] with [bank balance] in the bank, a vacation home in [location], and travel by [mode of transporation]. Your program should be able to process input whether a user enters capital or lowercase letters.
+[First Name] [Last Name] will retire in [# of years] with [bank balance] in the bank, a vacation home in [location], and travel by [mode of transporation]. 
+
+Your program should be able to process input whether a user enters capital or lowercase letters.
 
 Stretch Tasks (Optional) 
 [ ] Give the user the ability to quit the program by typing “Quit” (should not be case sensitive) at any point where the program is looking for user input. The program should print “Nobody likes a quitter…” before ending.
@@ -67,4 +69,8 @@ Tip: To do this with the prompts that expect an integer, you will need to read i
 
 [ * ] Research while (page 115 in the Head Start book) or do/while loops and use them to check whether a user typed “Help” for favorite color, printing the list of colors each time the user types “Help”.
 
-What is your favorite ROYGBIV color? Help The ROYGBIV colors are red, orange, yellow, green, blue, indigo, violet. Help The ROYGBIV colors are red, orange, yellow, green, blue, indigo, violet. Blue
+What is your favorite ROYGBIV color? 
+Help 
+The ROYGBIV colors are red, orange, yellow, green, blue, indigo, violet. 
+Help 
+The ROYGBIV colors are red, orange, yellow, green, blue, indigo, violet. 

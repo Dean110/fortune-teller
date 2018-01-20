@@ -5,8 +5,9 @@ Overview
 Week One Project for the Spring 2018 WeCanCodeIT cohort. Develop a console application that will tell the user’s fortune based on data received from the user.
 	
 Version History
-	ver 1.0 meets all requirements plus the second stretch goal.  
-	ver 1.1 meets all requirements and stretch goals.
+	ver 1.0 meets all requirements plus the second stretch task.  
+	ver 1.1 meets all requirements and stretch tasks.
+	ver 1.2 currency added and formated output text to fit in the bash terminalcd ..
 
 Part 1
 

@@ -1,6 +1,7 @@
 
-// Version 1.1
+// Version 1.3
 import java.util.Scanner;
+import java.text.NumberFormat;
 
 public class FortuneTeller {
 
@@ -129,12 +130,14 @@ public class FortuneTeller {
 			bankBalance = 252397.03;
 		} else
 			bankBalance = -52.01;
+		NumberFormat retirementFunds = NumberFormat.getCurrencyInstance();
+		
 
 		// Part 3
 		// Take consequences and give a fortune
 
 		System.out.println(userFirstName + " " + userLastName + " will retire in " + retirementYears + " years with "
-				+ bankBalance + " in the bank, a vacation home in " + vacationHomeLocale + ",\nand travel by "
+				+ retirementFunds.format(bankBalance) + " in the bank,\na vacation home in " + vacationHomeLocale + " and travel by "
 				+ transitMode + ".");
 
 	}

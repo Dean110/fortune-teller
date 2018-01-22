@@ -60,7 +60,11 @@ public class FortuneTeller {
 		int userSiblingCount = Integer.parseInt(userInput[5]);
 
 		System.out.println("Thanks for your time, your fortune is inbound.");
-		Thread.sleep((userSiblingCount * 1000));
+		for (int i = 0; i <= (userSiblingCount * 2); i++) {
+			System.out.print(". ");
+			Thread.sleep(500);
+		}
+		System.out.println();
 
 		// Part 2
 		// Take input and give it consequences
@@ -68,14 +72,13 @@ public class FortuneTeller {
 		int oddAge = 42;
 		int evenAge = 21;
 		int retirementYears;
-		
 
 		if (userAge % 2 == 1) {
 			retirementYears = oddAge;
 		} else {
 			retirementYears = evenAge;
 		}
-				
+
 		// Vacation Home Location (userSiblingCount)
 		String vacationHomeLocale;
 		if (userSiblingCount == 0) {
@@ -132,12 +135,11 @@ public class FortuneTeller {
 		} else
 			bankBalance = -52.01;
 		NumberFormat retirementFunds = NumberFormat.getCurrencyInstance();
-		
 
 		// Part 3
 		// Take consequences and give a fortune
 
-		String [] fortuneMessage = new String [12];
+		String[] fortuneMessage = new String[12];
 		fortuneMessage[0] = userFirstName;
 		fortuneMessage[1] = " ";
 		fortuneMessage[2] = userLastName;
@@ -150,7 +152,7 @@ public class FortuneTeller {
 		fortuneMessage[9] = " and travel by ";
 		fortuneMessage[10] = transitMode;
 		fortuneMessage[11] = ".";
-		
+
 		for (int i = 0; i < 12; i++) {
 			System.out.print(fortuneMessage[i]);
 		}

@@ -65,7 +65,7 @@ Part 3
 Your program should be able to process input whether a user enters capital or lowercase letters.
 
 Stretch Tasks (Optional) 
-[ ] Give the user the ability to quit the program by typing “Quit” (should not be case sensitive) at any point where the program is looking for user input. The program should print “Nobody likes a quitter…” before ending.
+[ * ] Give the user the ability to quit the program by typing “Quit” (should not be case sensitive) at any point where the program is looking for user input. The program should print “Nobody likes a quitter…” before ending.
 
 Tip: To do this with the prompts that expect an integer, you will need to read in a String, check for “Quit”, then use Integer.parseInt(value) to convert the user input to an int. Also tip: You can call System.exit(0); to terminate your program immediately. 
 
